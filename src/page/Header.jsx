@@ -1,6 +1,7 @@
 import React from "react";
 import { Navegation } from "./Navegation";
-import "../style/header.css";
+
+import "../assets/style/header.css";
 
 export const Header = () => {
   return (
