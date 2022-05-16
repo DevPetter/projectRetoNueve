@@ -6,14 +6,13 @@
 }
 
 .card-info {
-  background: pink;
+  /* background: pink; */
   position: absolute;
   left: 10%;
   width: 80%;
   height: 50%;
 }
-.cardtxtBody {
-
+.card-inf-txtBody {
   position: absolute;
   left: 0%;
   right: 41.61%;
@@ -25,6 +24,21 @@
   border-radius: 15px;
 
   color: white;
+  z-index: 1;
+}
+
+
+.card-Inf-ImgBody {
+  position: absolute;
+  left: 42.77%;
+  right: 0%;
+  top: 0%;
+  bottom: 14.62%;
+
+   background: url("../img/integrantes1.jpg");
+   /* background: rebeccapurple; */
+   border-radius: 20px;
+   z-index: 0;
 }
 
 .imgBody {
