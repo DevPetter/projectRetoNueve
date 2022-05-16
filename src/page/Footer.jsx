@@ -2,6 +2,9 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <div>Footer Reto Nueve</div>
+    <>
+    <div>Contactenos</div>
+     <div>Información personal</div>
+    </>
   )
 }
