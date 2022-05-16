@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import "./style/index.css";
+import "./assets/style/index.css";
 
 import reportWebVitals from "./reportWebVitals";
 import { LandingPage } from "./page/LandingPage";
