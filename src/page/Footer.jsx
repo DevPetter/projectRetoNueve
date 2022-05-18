@@ -1,10 +1,12 @@
-import React from 'react'
+import React from "react";
+import { CardContacts} from "../components/CardContacts";
+import { CardCopyRight} from "../components/CardCopyRight";
 
 export const Footer = () => {
   return (
     <>
-    <div>Contactenos</div>
-     <div>Información personal</div>
+      <CardContacts />
+      <CardCopyRight/>
     </>
-  )
-}
+  );
+};
