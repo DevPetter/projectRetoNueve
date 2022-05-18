@@ -4,9 +4,12 @@ import { CardCopyRight} from "../components/CardCopyRight";
 
 export const Footer = () => {
   return (
-    <>
+    
+    <div className="footer">
+      <div className="boxCircleFooter"></div>
       <CardContacts />
       <CardCopyRight/>
-    </>
+    </div>
+    
   );
 };

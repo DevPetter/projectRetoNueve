@@ -7,14 +7,13 @@ import "../assets/style/header.css";
 
 export const Header = () => {
   return (
-    <>
+    
       <div className="header">
         <img src={images.imgLogo} />
-
         <div className="circle"></div>
         <Navegation />
         <div className="square"></div>
       </div>
-    </>
+    
   );
 };
