@@ -1,15 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter } from "react-router-dom";
 
+import { LandingPage } from "./LandingPage.jsx";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/style/index.css";
 
 import reportWebVitals from "./reportWebVitals";
-import { LandingPage } from "./page/LandingPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-<LandingPage/>
+    <BrowserRouter>
+        <LandingPage />
+    </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

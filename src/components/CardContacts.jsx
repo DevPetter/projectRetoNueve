@@ -1,11 +1,12 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+
 import "../assets/style/footer.css";
 
 export const CardContacts = () => {
   return (
-    <>
-      <Card className="boxContactenos">
+
+      <div className="box-Contactenos">
         <Card.Body>
           <Card.Title>Contáctanos</Card.Title>
           <Card.Text>
@@ -15,7 +16,7 @@ export const CardContacts = () => {
             
           </Card.Text>
         </Card.Body>
-      </Card>
-    </>
+      </div>
+
   );
 };

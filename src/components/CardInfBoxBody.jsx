@@ -6,8 +6,7 @@ import "../assets/style/body.css";
 
 export const CardInfBoxBody = () => {
   return (
-    <>
-      <Card className="card-inf-txtBody">
+      <div className="card-inf-txtBody">
         <Card.Body>
           <Card.Title>Lorem Ipsum</Card.Title>
           <Card.Text>
@@ -20,7 +19,6 @@ export const CardInfBoxBody = () => {
            
           </Card.Text>
         </Card.Body>
-      </Card>
-    </>
+      </div>
   );
 };
