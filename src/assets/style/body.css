@@ -1,12 +1,10 @@
 .sectionBody {
-  /* background: rgb(218, 46, 175); */
   position: relative;
   height: 1080px;
   width: 100%;
 }
 
 .card-info {
-  /* background: pink; */
   position: absolute;
   left: 10%;
   width: 80%;
@@ -27,7 +25,6 @@
   z-index: 1;
 }
 
-
 .card-inf-ImgBody {
   position: absolute;
   left: 42.77%;
@@ -35,10 +32,8 @@
   top: 0%;
   bottom: 14.62%;
 
-   background-image: url("../img/integrantes1.jpg");
-   /* background: rebeccapurple; */
-   border-radius: 20px;
-   z-index: 0;
+  border-radius: 20px;
+  z-index: 0;
 }
 
 .imgBody {
@@ -49,4 +44,13 @@
   left: 0%;
   width: 100%;
   height: 40%;
+}
+
+.img-cardInfo {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  border-radius: 30px;
 }
