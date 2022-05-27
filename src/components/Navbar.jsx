@@ -8,26 +8,13 @@ export const Navbar = () => {
   return (
     <>
       <Nav className="justify-content-center" activeKey="/home">
-
-        <Nav.Item className="color-nav">
-          <Link to="/">Home</Link>
-        </Nav.Item>
-
-        <Nav.Item className="color-nav">
-          <Link to="reto">Nuestro Reto</Link>
-        </Nav.Item>
-
-        <Nav.Item className="color-nav">
-          <Link to="impacto">Impacto</Link>
-        </Nav.Item>
-
-        <Nav.Item className="color-nav">
-          <Link to="inscribete">Inscribete</Link>
-        </Nav.Item>
-
-        <Nav.Item className="color-nav">
-          <Link to="apoyenos">Apoyenos</Link>
-        </Nav.Item> 
+      
+      {/* <Nav.Link href="#home">Home</Nav.Link> */}
+      <Nav.Link as={Link} to="/"  className="color-nav">Home</Nav.Link>
+      <Nav.Link as={Link} to="reto"  className="color-nav">Nuestro Reto</Nav.Link>
+      <Nav.Link as={Link} to="impacto"  className="color-nav">Impacto</Nav.Link>
+      <Nav.Link as={Link} to="inscribete"  className="color-nav">Inscribete</Nav.Link>
+      <Nav.Link as={Link} to="apoyenos"  className="color-nav">Apoyenos</Nav.Link>
 
       </Nav>
     </>
